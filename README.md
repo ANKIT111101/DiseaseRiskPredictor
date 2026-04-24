@@ -18,20 +18,8 @@ cd DiseaseRiskPredictor
 dotnet run
 ````
 ## Structure
-DiseaseRiskPredictor/
-├── Data/
-│   └── diabetes.csv          ← training data
-├── Models/
-│   ├── PatientData.cs        ← input schema
-│   └── RiskPrediction.cs     ← output schema
-├── Services/
-│   └── RiskPredictionService.cs  ← ML pipeline
-├── Pages/
-│   ├── Index.cshtml          ← form UI
-│   └── Index.cshtml.cs       ← page model
-└── wwwroot/
-    └── (static assets)
-    
+<img width="513" height="372" alt="image" src="https://github.com/user-attachments/assets/05275839-42ab-4c09-865c-ed51cd9eace4" />
+ 
 ## Screenshot
 <img width="1920" height="887" alt="image" src="https://github.com/user-attachments/assets/4de02f6b-ddc2-4be3-8056-387d20165c5f" />
 <img width="1914" height="857" alt="image" src="https://github.com/user-attachments/assets/2a2118f8-94f7-4af3-92f8-a24d35a35ac4" />
