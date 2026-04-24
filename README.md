@@ -19,4 +19,6 @@ dotnet run
 ````
 
 ## Screenshot
-[paste a screenshot of your UI here]
+<img width="1920" height="887" alt="image" src="https://github.com/user-attachments/assets/4de02f6b-ddc2-4be3-8056-387d20165c5f" />
+
+
