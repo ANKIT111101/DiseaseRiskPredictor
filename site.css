@@ -1,0 +1,88 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}*/
+
+/* Small tweaks on top of Bootstrap — nothing fancy needed */
+/*body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    border-bottom: 1px solid #e9ecef;
+    font-size: 0.95rem;
+}
+
+.progress-bar {
+    transition: width 0.6s ease;
+}*/
+
+/*custom background*/
+body {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    min-height: 100vh;
+    color: #e0f2fe;
+}
+
+.card {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(255,255,255,0.12);
+    backdrop-filter: blur(4px);
+}
+
+.card-header {
+    background: transparent !important;
+    color: #e0f2fe;
+    border-color: rgba(255,255,255,0.1);
+}
+
+.text-muted {
+    color: #7dd3fc !important;
+}
+.fieldlabels {
+    background: transparent !important;
+    color: #e0f2fe;
+    border-color: rgba(255,255,255,0.1);
+}
+.text-success {
+    --bs-text-opacity: 1;
+    color: rgb(9 224 124) !important;
+}
+.bg-opacity-10 {
+    --bs-bg-opacity: 0.5;
+}
